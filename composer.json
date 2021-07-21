@@ -1,5 +1,13 @@
 {
+    "autoload": {
+        "psr-4": {
+            "isanasan\\Router\\":"src"
+        }
+    }, 
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "altorouter/altorouter": "^2.0",
+        "symfony/var-dumper": "^5.3",
+        "filp/whoops": "^2.14"
     }
 }
